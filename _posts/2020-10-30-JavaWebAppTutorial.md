@@ -1,4 +1,8 @@
-MVC Architecture in Java
+---
+layout: post
+title: MVC Architecture in Java
+---
+
 In web development, MVC is one of the most talked design pattern
 
 Three topics to understand MVC:
