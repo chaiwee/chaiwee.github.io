@@ -19,8 +19,8 @@ In web development, MVC is one of the most talked design pattern
 Model - the business layer  
 View - the presentation  
 Controller - manages the flow  
-DAO - data access object, if you create one DAO class for each DB table, maintainence becomes easier
-VO - value object, columns in a DB table are created as member variables, and the column values of the table are used to treat the column values as objects in java (data is encapsulated and made into an object)
+DAO - data access object
+VO - value object
 (source: https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/MVC-1-768x306.png)  
 
 ### 2. Advantages  
