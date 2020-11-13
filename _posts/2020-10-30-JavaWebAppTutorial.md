@@ -5,12 +5,12 @@ title: MVC Architecture in Java
 
 In web development, MVC is one of the most talked design pattern
 
-## Three topics to understand MVC:
+## Three topics to understand MVC
 1. What is MVC?
 2. Advantages?
 3. Implementation in Java
 
-## Notes:  
+## Notes  
 - Design Pattern: A technique to solve a commonly occuring problem when designing software.  
 - Design Model: Specifies what type of architecture you use to solve problem or design model  
 - 2 types design model: Model 1 Architecture, Model 2(MVC) Architecture  
