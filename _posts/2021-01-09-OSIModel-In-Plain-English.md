@@ -24,7 +24,7 @@ Terms:
 
 **Topology:** it describes how nodes and links fit together in a network configuration
 
-(https://lh5.googleusercontent.com/4oofyzO7Vpjz4oOAi30hEEcN8svH1Yon1SR96RKPyfC8jUeRo05nppE-r2BEXAbRH6BCrG1NPF4mtfUzmurmq5cepLtep_p0dEIytxLQithHzpBkOkzNKa8s5p1XkTtCpM2BjEHe)
+ref: [Network Topology Types](https://lh5.googleusercontent.com/4oofyzO7Vpjz4oOAi30hEEcN8svH1Yon1SR96RKPyfC8jUeRo05nppE-r2BEXAbRH6BCrG1NPF4mtfUzmurmq5cepLtep_p0dEIytxLQithHzpBkOkzNKa8s5p1XkTtCpM2BjEHe)
 
 
 What is a layer?
@@ -33,13 +33,13 @@ In OSI model, layers are organized from the most tangible and physical to lesser
 Each layer abstracts lower level functionality away until by the time you get to the highest layer.
 
 
-- Please | Physical Layer  
-- Do | Data Link Layer  
-- Not | Network Layer  
-- Tell (the) | Transport Layer  
-- Secret | Session Layer  
-- Password (to) | Presentation Layer  
-- Anyone | Application Layer  
+- Please \| Physical Layer  
+- Do \| Data Link Layer  
+- Not \| Network Layer  
+- Tell (the) \| Transport Layer  
+- Secret \| Session Layer  
+- Password (to) \| Presentation Layer  
+- Anyone \| Application Layer  
 
 
 ** Be aware that the OSI model is a tool, not a set of rules.
