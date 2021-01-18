@@ -48,7 +48,7 @@ Each layer abstracts lower level functionality away until by the time you get to
 ## 2. Purpose of each of the 7 layers  
 
 
-### Layer 1 -> Physical layer  
+### Layer 1 Physical layer  
 Includes everything from physical network devices, cabling , to how the cables hook up to the devices.
 The data unit is the bit.
 A bit is the smallest unit of transmittable digital information. Bits are binary. Bytes consist of 8 bits.
@@ -59,7 +59,7 @@ Single transmission method:
 2. Both send and receive -> duplex (send and receive at the same time, then full else half)  
 
 
-### Layer 2 -> Data Link Layer  
+### Layer 2 Data Link Layer  
 Defines how data is formatted for transmission, how data flows between nodes, for how long and what to do when errors are detected.
 It is mostly concerned for error detection, not error correction.
 There are 2 distinct sublayers in layer 2:
@@ -72,7 +72,7 @@ Body: contains bits being transmitted
 Trailer: includes error detection information （Error detection mechanisms examples: Cyclic Redundancy Check (CRC) and Frame Check Sequence(FCS)
 
 
-### Layer 3 -> Network Layer  
+### Layer 3 Network Layer  
 This is where we send information between and across networks through the use of routers. Instead of node to node, we can now do network to network.  
 Routers move data packets across multiple networks, they also connect to Internet Service Providers(ISP) to provide access to Internet(Once it's connected, an IP address is assigned).  
 Routers store all the addressing and routing information (different paths for routing data packets across networks) in a routing tables.  
@@ -83,7 +83,7 @@ IP addresses are associated with physical node's MAC addresses via Address Resol
 
 
 
-### Layer 4 -> Transport Layer
+### Layer 4 Transport Layer
 This specifies the connection between two nodes and how information is transmitted between them.  
 It builds on the functions of Layer 2(line discipline, flow control and error control).  
 This layer is also responsible for data packet segmentation(how data packets are broken up and sent over the network).  
@@ -105,7 +105,7 @@ Protocols of Layer 4:
 *** IP address + Port = Socket
 
 
-### Layer 5 -> Session Layer  
+### Layer 5 Session Layer  
 This layer establishes, maintains, and terminates sessions.  
 A session is a mutually agreed upon connection that is established between two network applications. ( not nodes! )  
 
@@ -117,13 +117,13 @@ This layer responds to requests from presentation layer and issues request to tr
 From Layer 5 and up, networks focus on ways of making connections to end-user applications and displaying data to the user.  
 
 
-### Layer 6 -> Presentation Layer  
+### Layer 6 Presentation Layer  
 This layer is responsible for data formatting, such as character encoding and conversions, and data encryption.  
 This layer makes sure that end-user apps operating on Layer 7 can successfully consume data and display it.  
 SSL and TLS encryption protocols live on Layer 6. They help ensure that transmitted data is less vulnerable to malicious actor by providing authentication and data encryption for nodes operating on a network.  
 
 
-### Layer 7 -> Application Layer  
+### Layer 7 Application Layer  
 This is the layer that is responsible for supporting services used by end-user applications.  
 Examples : E-mail programs uses email protocols, FTP, SSH, SMTP, IMAP, DNS, HTTP  
 Although this layer owns the services and functions that end-user apps need to work, the apps itself it's not included.
