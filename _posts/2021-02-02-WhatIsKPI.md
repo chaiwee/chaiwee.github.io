@@ -15,14 +15,14 @@ Let's get down to the nitty-gritty!
 3. How to define your KPI?  
 4. A SMART and even SMARTER KPI  
 
-##1. What is KPI?  
+## 1. What is KPI?  
 A KPI is a measurable value that demonstrates how effectively a company is achieving key business objectives.  
 Organizations use KPIs at multiple levels to evaluate their success at reaching targets.  
 
 High level KPI focuses on overall performance of the business.  
 Low level KPI focuses on processes in departments such as sales, marketing, HR, support and others.  
 
-##2. What makes KPI effective?  
+## 2. What makes KPI effective?  
 Too often, organizations blindly adopt the industry-recognized KPIs and then wonder why it does not work on their own business.  
 One of the most important aspects of KPIs is that they are a form of communication.  
 Start with the basics and understand what are the organizational objectives of your organization,
@@ -32,7 +32,7 @@ This process should involves feedback from analysts, department heads and manage
 As this fact finding mission unfolds, you will come to understand which of your business processes need to be measured and with whom the information should be shared.  
 
 
-##3. How to define your KPI?  
+## 3. How to define your KPI?  
 Follow the steps below to define your KPI:  
 - What is your desired outcome?  
 - Why does this outcome matter?  
@@ -54,7 +54,7 @@ eg. Sales Growth KPI
 - monthly basis   
 
 
-##4. A SMART KPI  
+## 4. A SMART KPI  
 SMART stands for Specific, Measurable, Attainable, Relevant, Time-Bound  
 - Is your goal specific?  
 - Can you measure progress towards that goal?  
